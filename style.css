@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+
+*,*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono';
+}
+
+body{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+main{display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 375px;
+    background-color: #C5E4E7;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 375px;
+    border-radius: 25px 25px 0px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+/* section1 */
+
+.billDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.billclass{
+    font-weight: 700;
+    font-size: 16px;
+    color: #5E7A7D;
+    margin-bottom: 10px;
+}
+.billInputClass{
+    display: flex;
+    width: 311px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #F3F9FA;
+    border: none;
+    background-image: url(./assets/$.svg);
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 23px;
+    color: #00474B;
+    padding-right: 20px;
+   
+
+}
+.billInputClass::placeholder{
+  
+    text-align:right;
+}
+
+.buttonDiv p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #5E7A7D;
+}
+
+.tipPercent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+    margin-bottom: 16px;
+}
+.button{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #00474B;
+    font-size: 24px;
+    font-weight: 700;
+    color: #00474B;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #9FE8DF;
+    border: none;
+}
+
+
+.buttonDivinput{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: rgba(243, 249, 250, 1);
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #547878;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.numberOfpeopleDiv p{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(94, 122, 125, 1);
+    margin-bottom: 10px;
+}
+
+.inputOfpeople{width: 311px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #F3F9FA;
+    /* border:hidden; */
+    background-image: url(./assets/personICON.svg);
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 23px;
+    color: #00474B;
+}
+
+.section2{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgba(0, 71, 75, 1);
+    border-radius: 15px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section2FirstDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.section2FirstDiv p{
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.section2SecondDiv p{
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+h3{
+    font-size: 13px;
+    color: #7F9D9F;
+}
+
+.section2SecondDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.resetbutton{
+    
+    width: 281px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(13, 104, 109, 1);
+   color: #00474B;
+   font-size: 16px;
+
+}
+
+.tipamount2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #26C2AE;
+}
+.total2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #26C2AE;
+}
+
+.tipPercent button.active {
+    background-color:#26C2AE;
+    color: #00474B;
+    border: none;
+  }
+
+  .resetbutton.active {
+    background-color: rgba(38, 194, 174, 1);
+    color: white;
+    
+  }
+
+
+
+

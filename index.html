@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <main>
+        <div class="logo"><img src="./assets/logo.svg" alt=""></div>
+
+
+        <section>
+
+
+
+            <div class="section1">
+
+                <div class="billDiv">
+                    <label class="billclass" for="bill">Bill</label>
+                    <input class="billInputClass" type="number" placeholder="0" value="">
+                </div>
+
+
+                <div class="buttonDiv">
+                    <p>Select Tip %</p>
+                    <div class="tipPercent">
+                        <button class="button" value="5">5%</button>
+                        <button class="button" value="10">10%</button>
+                        <button class="button" value="15">15%</button>
+                        <button class="button" value="25">25%</button>
+                        <button class="button" value="50">50%</button>
+                        <input class="buttonDivinput" type="number" placeholder="Custom" value="">
+                    </div>
+
+
+                </div>
+
+
+                <div class="numberOfpeopleDiv">
+                    <p>Number of People <span class="errorMessage"></span></p>
+                    <!-- <div class="errorMessage"></div> -->
+                    <input class="inputOfpeople" type="number" name="" placeholder="0" value="">
+                </div>
+
+            </div>
+
+
+            <div class="section2">
+
+                <div class="section2FirstDiv">
+
+                   <div class="tipamount">
+                    <p>Tip Amount</p>
+                    <h3>/ person</h3>
+                   </div>
+
+                   <div class="tipamount2">$ 0.00</div>
+
+                </div>
+
+
+
+                <div class="section2SecondDiv">
+
+                    <div class="total">
+                     <p>Total</p>
+                     <h3>/ person</h3>
+                    </div>
+ 
+                    <div class="total2">$ 0.00</div>
+ 
+                 </div>
+
+                 <button class="resetbutton">RESET</button>
+                
+            </div>
+        </section>
+    </main>
+    
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
